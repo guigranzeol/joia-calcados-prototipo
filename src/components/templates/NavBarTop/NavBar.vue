@@ -6,44 +6,37 @@
           <slot></slot>
         </ul>
       </div>
-      <div class="allCategory">
-      </div>
+      <div class="allCategory"></div>
     </v-row>
   </div>
-
-  
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
-
-#nav-bar{
+#nav-bar {
   position: relative;
 }
 
-.categoryMenu{
+.categoryMenu {
   width: 70%;
   margin: auto;
 }
 
-ul{
+ul {
   display: flex;
   width: 100%;
   text-align: left;
-  text-transform: uppercase;
-  padding: 20px;
+  padding: 7px;
 }
 
-li{
+li {
   flex: 1;
   list-style-type: none;
-  padding: 10px;
-  font-size: 20px;
+  padding: 1px;
+  font-size: 17px;
 }
 
 /* .allCategory{
@@ -56,5 +49,4 @@ li{
 .icon-color{
   font-size: 3rem;
 } */
-
 </style>
