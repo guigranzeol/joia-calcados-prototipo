@@ -3,61 +3,41 @@
     <span>
       <v-carousel height="70vh" progress>
         <carousel-default
-          src="/images/calcados"
+          src="/images/calcados/joia1.jpg"
           title="Other"
           justify="end"
-          colorTitle="grey--text text--darken-4"
+          colorTitle="black"
           text="Lorem ipsum or delectus reiciendis sequi ducimus quo rerum, laboriosam perferendis, facilis quia blanditiis! Id eius, cumque totam vel eveniet debitis libero sint."
-          colorText="grey--text"
+          colorText="black--text"
           buttonText="Other"
           buttonHref="/Other"
         />
         <carousel-default
-          src="/images/Edited/maria-luiza-modas3.png"
+          src="/images/calcados/joia2.jpg"
           title="Other"
           justify="end"
           colorTitle="grey--text text--darken-4"
           text="Lorem ipsum or delectus reiciendis sequi ducimus quo rerum, laboriosam perferendis, facilis quia blanditiis! Id eius, cumque totam vel eveniet debitis libero sint."
-          colorText="grey--text"
+          colorText="white--text"
           buttonText="Other"
           buttonHref="/Other"
-        />
-        <carousel-default
-          src="/images/Edited/maria-luiza-modas.jpg"
-          title="Blazers"
-          colorTitle="black--text"
-          justify="end"
-          text="Aqui você encontra os melhores Blazers para a proxima estação. Que combinam com o trabalho,balada e também para aquele momento especial com a familia. Confira todos os modelos"
-          colorText="black--text"
-          buttonText="Ver Mais"
-          buttonHref="helloworld"
-        />
-        <carousel-default
-          justify="start"
-          src="/images/others/bg.jpg"
-          title="Blazers"
-          colorTitle="black--text"
-          text="Aqui você encontra os melhores Blazers para a proxima estação. Que combinam com o trabalho,balada e também para aquele momento especial com a familia. Confira todos os modelos"
-          colorText="black--text"
-          buttonText="Ver Mais"
-          buttonHref="helloworld"
         />
       </v-carousel>
     </span>
 
     <categories-grid
-      title1="Vestidos"
+      title1="Tênis"
       route1="man"
-      img1="/images/tests/categories/vestidos.jpeg"
-      title2="T-Shits"
+      img1="/images/calcados/Tenis1.png"
+      title2="Chinelos"
       route2="boots"
-      img2="/images/tests/categories/t-shirt.jpeg"
-      title3="Jeans"
+      img2="/images/calcados/chinelão1.png"
+      title3="Sapatilha"
       route3="looks"
-      img3="/images/tests/categories/jeans.jpeg"
-      title4="Blazers"
+      img3="/images/calcados/sapatilha1.png"
+      title4="Salto Alto"
       route4="woman"
-      img4="/images/tests/categories/blazer.jpeg"
+      img4="/images/calcados/Sapato alto1.png"
     />
 
     <hr />

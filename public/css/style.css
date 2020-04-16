@@ -1,5 +1,5 @@
 #nav-top {
-  background: #d83b3b;
+  background: #000233;
 }
 
 .search-class input {
@@ -27,7 +27,7 @@
 }
 
 #footer {
-  background-color: #630101;
+  background-color: #66a9e7;
   color: #fff;
 }
 
@@ -59,7 +59,7 @@ a {
 }
 
 #nav-bar {
-  background-color: #630101;
+  background-color: #66a9e7;
 }
 
 #nav-bar a {
@@ -88,11 +88,11 @@ a {
 }
 
 .corousel-button:hover {
-  background-color: #630101;
+  background-color: #66a9e7;
 }
 
 .moreCategoriesTitle {
-  color: #d83b3b;
+  color: #000233;
 }
 
 .img-info {

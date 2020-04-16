@@ -4,12 +4,12 @@
       <bar-top userRoute="/user" cartRouter="/cart"></bar-top>
 
       <nav-bar>
-        <li-default name="T-Shirts" src="#" />
-        <li-default name="Jeans" src="#" />
-        <li-default name="Vestidos" src="#" />
-        <li-default name="Acessórios" src="#" />
+        <li-default name="Tênis" src="#" />
         <li-default name="Sapatos" src="#" />
-        <li-default name="Saias" src="#" />
+        <li-default name="Sapatilha" src="#" />
+        <li-default name="Saltos" src="#" />
+        <li-default name="Chinelos" src="#" />
+        <li-default name="Infantil" src="#" />
       </nav-bar>
 
       <slot></slot>
@@ -40,8 +40,7 @@ export default {
 </script>
 
 <style scoped>
-.main-class{
+.main-class {
   background-color: white !important;
 }
-
 </style>

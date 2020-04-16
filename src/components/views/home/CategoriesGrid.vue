@@ -1,9 +1,8 @@
 <template>
   <span>
     <div class="category-div">
-      <h2 class="text-center mb-3 title">Categorias </h2>
-      <h1 class="text-center mb-3 mt-5"><i class="fas fa-star text-center"></i></h1>
-        
+      <h2 class="text-center mb-3 title">Categorias</h2>
+
       <v-row justify="center">
         <v-col sm="4" cols="12">
           <v-img class="img-left img-4" :src="img1" alt>
