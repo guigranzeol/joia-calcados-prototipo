@@ -1,7 +1,7 @@
 <template>
   <span>
     <div class="category-div">
-      <h2 class="text-center mb-3 title">Categorias</h2>
+      <!-- <h2 class="text-center mb-5 title red--text">Categorias</h2> -->
 
       <v-row justify="center">
         <v-col sm="4" cols="12">
@@ -18,7 +18,7 @@
                 <P>{{ title2 }}</P>
               </div>
             </v-img>
-            <v-img class="img-center" :src="img3" alt>
+            <v-img style="margin-top: 10px !important; " class="img-center" :src="img3" alt>
               <div class="img-info">
                 <P>{{ title3 }}</P>
               </div>
@@ -57,6 +57,10 @@ export default {
 </script>
 
 <style  scoped>
+.category-div {
+  padding: 5px 0 0 0;
+}
+
 h1::before,
 h1::after {
   display: inline-block;
@@ -83,38 +87,36 @@ h2 {
   margin: 0 0 0 20% !important;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
 .img-left:hover {
   width: 110%;
-  height: 110%;
+  height: 415px;
 }
 
 .img-right {
   padding: 30px;
   margin-left: -20% !important;
   position: relative;
-  width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
 .img-right:hover {
   width: 110%;
-  height: 110%;
+  height: 415px;
 }
 
 .img-center {
-  padding: 30px;
-  margin: 10px auto 10px auto !important;
+  margin: 0px auto 0px auto !important;
   position: relative;
   width: 50%;
-  height: 50%;
+  height: 195px;
 }
 
 .img-center:hover {
   width: 55%;
-  height: 55%;
+  height: 200px;
 }
 
 .img-info {

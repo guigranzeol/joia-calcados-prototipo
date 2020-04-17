@@ -25,7 +25,7 @@
       </v-carousel>
     </span>
 
-    <categories-grid
+    <!-- <categories-grid
       title1="Tênis"
       route1="man"
       img1="/images/calcados/Tenis1.png"
@@ -38,7 +38,7 @@
       title4="Salto Alto"
       route4="woman"
       img4="/images/calcados/Sapato alto1.png"
-    />
+    />-->
 
     <hr />
     <most-seens></most-seens>
@@ -48,7 +48,7 @@
 <script>
 import Admin from "@/templates/Admin";
 import CarouselDefault from "@/components/reusables/CarouselDefault";
-import CategoriesGrid from "@/components/views/home/CategoriesGrid";
+// import CategoriesGrid from "@/components/views/home/CategoriesGrid";
 import MostSeens from "@/components/views/home/MostSeens";
 
 export default {
@@ -56,7 +56,7 @@ export default {
   components: {
     Admin,
     CarouselDefault,
-    CategoriesGrid,
+    // CategoriesGrid,
     MostSeens
   }
 };
